@@ -125,7 +125,7 @@ function createBox(boxName, json) {
   let h2_text = null;
 
   if (boxName == "agify") {
-    h2_text = "With a name like that, you're probably...";
+    h2_text = "You're probably...";
     data_text = json.age + " years old";
   } else if (boxName == "nationalize") {
     h2_text = "You most likely hail from...";
