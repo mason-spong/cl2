@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h2, button, input {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.heading {
+  width: fit-content;
+  padding: 50px;
+  margin: 0 auto;
+  font-size: 60px;
+  
+}
+
+.header-blurb {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.pure-form {
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.name-input {
+  display: block;
+  border: none;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.name-input:focus {
+  outline: none;
+}
+
+.cursor {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cursor-wrap {
+  padding-bottom: 20px;
+}
+.submit-button {
+  display: block;
+  width: 0 auto;
+  margin: 0 auto;
+}
+
+.cursor {
+  position: relative;
+}
+.cursor i {
+  position: absolute;
+  width: 10px;
+  height: 90%;
+  background-color: gray;
+  left: 5px;
+  top: 10%;
+  animation-name: blink;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+.cursor input:focus + i {
+  display: none;
+}
+
+@keyframes blink {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.submit-button {
+  font-size: 60px;
+  border: none;
+  padding: 20px;
+  background-color: rgb(223, 219, 219);
+  border-radius: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  opacity: 1;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+.box {
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgb(223, 219, 219);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  animation: fade-in 1s ease;
+}
+
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.box-content {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.api-title {
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.data {
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.footer {
+  background-color: rgb(223, 219, 219);
+  height: 200px;
+  width: 100%;
+}
+
+a {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.spacer {
+  height: 700px;
+  width: 100%;
+
+}
+
+.github-sym {
+  width: fit-content;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer a {
+  display: inline;
+  
+}
+
+.footer p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
